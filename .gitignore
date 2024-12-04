@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
+# CMake build directory
+/build/
 
-# Compiled Object files
-*.slo
-*.lo
+# Linux
+*.out
 *.o
-*.obj
+*.a
+*.so
+*.lo
+*.la
+*.dSYM/
 
-# Precompiled Headers
+# Windows
+*.exe
+*.dll
+*.lib
+*.pdb
+*.idb
+*.obj
+*.ilk
+*.exp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# macOS
+*.dSYM/
+
+# C++ specific
 *.gch
 *.pch
+*.swp
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Qt Creator
+*.pro.user
+*.qmake.stash
 
-# Fortran module files
-*.mod
-*.smod
+# CodeBlocks
+*.cbp
+*.depend
+*.layout
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# VSCode
+.vscode/
 
-# Executables
-*.exe
-*.out
-*.app
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Misc
+*.log
+*.bak
+*.tmp
