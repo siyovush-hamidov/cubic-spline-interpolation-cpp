@@ -6,7 +6,7 @@ This program demonstrates cubic spline interpolation using `ln(x) + e/x` as an e
 
 1. **Clone the repository** (if not done yet):
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/siyovush-hamidov/cubic-spline-interpolation-cpp
    cd cubic-spline-interpolation-cpp
    ```
 
