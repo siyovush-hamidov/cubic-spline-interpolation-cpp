@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(cubic_spline)
+set(CMAKE_CXX_STANDARD 14)
+option(BUILD_SHARED_LIBS "Build is done using shared libs" ON)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+add_library(cubic_spline src/cubicSpline.cpp src/Cholesky.cpp src/matrixOperations.cpp)
+add_executable(cubic_spline_exe main.cpp)
+target_link_libraries(cubic_spline_exe PRIVATE cubic_spline)
