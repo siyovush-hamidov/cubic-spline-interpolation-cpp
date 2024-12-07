@@ -36,7 +36,3 @@ This project is licensed under the **MIT License**.
 ## Learn More 📚
 
 For a deeper dive into the theory behind cubic spline interpolation, check out [this link on Wikiversity](https://en.wikiversity.org/wiki/Cubic_Spline_Interpolation).
-
----
-
-Let me know if you need further adjustments!
